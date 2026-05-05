@@ -1,0 +1,30 @@
+# Sovereign Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Secrets & Config
+.env
+client/.env
+server/.env
+*.env.local
+
+# Expo & Build Artifacts
+.expo/
+client/.expo/
+dist/
+build/
+web-build/
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# System & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
